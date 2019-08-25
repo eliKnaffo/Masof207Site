@@ -5,25 +5,30 @@
         <img style="height: 70%;padding-top: 15px;" src="assets/Img/Masof207Logo.png">
     </div>
     <div class="header-nav">
-        <a class="active nav-link nav-text" routerLink="/" routerLinkActive="active-link">דף הבית</a>
-        <a class="nav-link nav-text">צור קשר</a>
+        <a class="active nav-link nav-text" routerLink="/" routerLinkActive="active-link">Home Page</a>
+        <a class="nav-link nav-text">Contact Us</a>
     </div>
 </header>
 <!--Horizontal Site Navigation-->
 <nav class="subnav">
     <ul class="nav">
         <li class="nav-item">
-            <a class="nav-link" routerLink="/Masof207" routerLinkActive="active-link" >מסוף 207</a>
+            <a class="nav-link" routerLink="/Masof207" routerLinkActive="active-link" >Terminal 207</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" routerLink="/Marine" routerLinkActive="active-link" >מרין קונטיינרס</a>
+            <a class="nav-link" routerLink="/Marine" routerLinkActive="active-link" >Marine Containers</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link"routerLink="/Masof208" routerLinkActive="active-link" >מסוף 208</a>
+            <a class="nav-link"routerLink="/Masof208" routerLinkActive="active-link" >Terminal 208</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" routerLink="/Eyal" routerLinkActive="active-link" >אייל מטענים</a>
+            <a class="nav-link" routerLink="/Eyal" routerLinkActive="active-link" >Eyal Cargo</a>
         </li>
     </ul>
 </nav><br>
 
+<!--Caroucel-->
+<mat-carousel interval="3700" proportion="33" hideArrows="false">
+    <mat-carousel-slide image="assets/Img/MarinePic.jpg"><h1 style="padding-left: 660px; color: white; font-family:ZettaFont;">Marine Containers</h1></mat-carousel-slide>
+    <mat-carousel-slide image="assets/Img/Masof208.jpg"><h1 style="padding-left: 660px; color: white; font-family:ZettaFont;">Terminal 208</h1></mat-carousel-slide>
+</mat-carousel>
