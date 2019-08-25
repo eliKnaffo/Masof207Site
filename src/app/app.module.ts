@@ -11,6 +11,7 @@ import { MarineContainersInfoComponent } from './marine-containers-info/marine-c
 import { Masof208InfoComponent } from './masof208-info/masof208-info.component';
 import { EyalCargoInfoComponent } from './eyal-cargo-info/eyal-cargo-info.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { NavbarmenuComponent } from './navbarmenu/navbarmenu.component';
 
 
 
@@ -22,7 +23,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     MarineContainersInfoComponent,
     Masof208InfoComponent,
     EyalCargoInfoComponent,
-    CarouselComponent
+    CarouselComponent,
+    NavbarmenuComponent
   ],
   imports: [
     BrowserModule,

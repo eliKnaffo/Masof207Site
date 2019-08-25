@@ -4,7 +4,25 @@ imgSizeNav{
 }
 
 @font-face {
-    font-family: 'ZettaFont';
+    font-family: ZettaFont;
     src: url(/assets/fonts/zetta_serif-heavy-webfont.woff) format("truetype");
     font-weight:300;
   }
+
+.About{ 
+    font-size: 70px;
+    font-family: 'ZettaFont';
+    color:whitesmoke;
+    text-decoration: underline;
+    position: absolute;
+    top: 660px;
+    left: 16px;
+    
+}
+.bottomHeader{
+    background-size: 1700px;
+    background-image: url("/assets/Img/MasofAboutPic2.jpg");
+    background-repeat: no-repeat;
+    height: 750px;
+    width: auto;
+}  

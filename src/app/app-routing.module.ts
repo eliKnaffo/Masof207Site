@@ -7,7 +7,7 @@ import { Masof208InfoComponent } from './masof208-info/masof208-info.component';
 import { EyalCargoInfoComponent } from './eyal-cargo-info/eyal-cargo-info.component';
 
 const routes: Routes = [
-{path:"Main",component: MainLayoutComponent},
+{path:"",component: MainLayoutComponent},
 {path:'Masof207',component:Masof207InfoComponent},
 {path:'Marine',component:MarineContainersInfoComponent},
 {path:'Masof208',component:Masof208InfoComponent},
