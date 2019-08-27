@@ -12,6 +12,7 @@ import { Masof208InfoComponent } from './masof208-info/masof208-info.component';
 import { EyalCargoInfoComponent } from './eyal-cargo-info/eyal-cargo-info.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { NavbarmenuComponent } from './navbarmenu/navbarmenu.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 
 
@@ -24,7 +25,8 @@ import { NavbarmenuComponent } from './navbarmenu/navbarmenu.component';
     Masof208InfoComponent,
     EyalCargoInfoComponent,
     CarouselComponent,
-    NavbarmenuComponent
+    NavbarmenuComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
