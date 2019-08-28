@@ -1,1 +1,15 @@
 <app-navbarmenu></app-navbarmenu>
+<button type="button" class="btn btn-primary" (click)="openModal(template)">Terminal 207</button>
+ 
+<ng-template #template>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">Terminal 207</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+   vIDEO HERE
+  </div>
+</ng-template>
+

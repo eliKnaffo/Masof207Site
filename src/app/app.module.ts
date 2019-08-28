@@ -13,6 +13,8 @@ import { EyalCargoInfoComponent } from './eyal-cargo-info/eyal-cargo-info.compon
 import { CarouselComponent } from './carousel/carousel.component';
 import { NavbarmenuComponent } from './navbarmenu/navbarmenu.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
+
 
 
 
@@ -33,7 +35,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     AppRoutingModule,
     ClarityModule,
     BrowserAnimationsModule,
-    MatCarouselModule
+    MatCarouselModule,
+    ModalModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
