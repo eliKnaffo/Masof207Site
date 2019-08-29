@@ -14,6 +14,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { NavbarmenuComponent } from './navbarmenu/navbarmenu.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -28,7 +29,8 @@ import { ModalModule } from 'ngx-bootstrap/modal';
     EyalCargoInfoComponent,
     CarouselComponent,
     NavbarmenuComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
