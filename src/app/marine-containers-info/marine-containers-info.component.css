@@ -1,5 +1,8 @@
 .MarineText{
     font-size: 25px;
+    font-family: 'ZettaFont';
+    position: relative;
+    left: 25px;
 }
 
 .ContainerIcon{
@@ -9,4 +12,36 @@ top: 90px;
 left: 195px;
 height: 60px;
 width: 60px;
+}
+
+.RepIcon{
+    height: 45px;
+    width: 45px;
+    position: relative;
+    left: 740px;
+    top: 10px;
+}
+
+.TrainIcon{
+    position: relative;
+    height: 48px;
+    width: 48px;
+    left: 1350px;
+    bottom: 50px;
+    
+}
+.RentIcon{
+    position: relative;
+    height: 48px;
+    width: 48px;
+    left: 220px;
+    top: 150px;
+}
+
+.AnchorIcon{
+    position: relative;
+    height: 48px;
+    width: 48px;
+    left: 825px;
+    top: 80px;
 }
